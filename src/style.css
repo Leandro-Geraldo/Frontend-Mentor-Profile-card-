@@ -1,0 +1,60 @@
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    background-color: var(--background-card);
+    width: 320px;
+    border-radius: 10px;
+
+}
+
+.card .profile-informations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.card .profile-informations img{
+    border-radius: 50%;
+}
+
+.profile-informations .name{
+    padding: 20px;
+    font-size: 26px;
+}
+
+.card .profile-numbers{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.profile-informations .name,
+.profile-numbers .conter{
+    font-weight: 700;
+}
+
+.profile-informations .ages,
+.profile-informations .city,
+.profile-numbers .conter-type{
+    color: var(--text-color);
+}
